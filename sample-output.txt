@@ -1,0 +1,8 @@
+Help Desk network check — 2026-11-16 20:25 UTC
+Target: example.com (TCP port 443)
+
+[PASS] DNS: resolved example.com -> 198.18.180.216
+[FAIL] Ping (ICMP): ping to 198.18.180.216 failed (exit 2)
+[PASS] TCP :443: TCP example.com:443 open (1 ms)
+
+Result: 1 check(s) failed — Ping (ICMP). Start with the first failure: DNS first, then ping, then TCP.
